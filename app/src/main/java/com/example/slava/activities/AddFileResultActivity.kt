@@ -11,7 +11,7 @@ import com.example.slava.databinding.ActivityTaskResultBinding
 
 class AddFileResultActivity : AppCompatActivity() {
 
-
+// Поздняя инициализация binding (привязки представления)
     lateinit var binding: ActivityAddFileResultBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
